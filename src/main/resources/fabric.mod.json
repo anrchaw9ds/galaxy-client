@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "galaxy-client",
+  "version": "${version}",
+  "name": "Galaxy Client",
+  "description": "Futuristic Fabric Minecraft Client with ClickGUI, Combat Systems, and Automation",
+  "authors": [
+    "Galaxy Dev Team"
+  ],
+  "contact": {
+    "homepage": "https://github.com/anrchaw9ds/galaxy-client",
+    "sources": "https://github.com/anrchaw9ds/galaxy-client"
+  },
+  "license": "MIT",
+  "icon": "assets/galaxy/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.galaxy.GalaxyClientMod"
+    ]
+  },
+  "mixins": [
+    "galaxy.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21"
+  }
+}

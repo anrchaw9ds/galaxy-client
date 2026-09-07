@@ -1,0 +1,27 @@
+# Gradle
+.gradle/
+build/
+out/
+*.jar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Mac
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Run directories
+run/
+runs/
+
+# Minecraft
+libraries/
+versions/

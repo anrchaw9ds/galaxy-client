@@ -1,0 +1,4 @@
+accessWidener v2 named
+
+accessible method net/minecraft/client/gui/screen/ingame/HandledScreen <init> (Lnet/minecraft/screen/ScreenHandler;Lnet/minecraft/entity/player/PlayerInventory;Lnet/minecraft/text/Text;)V
+accessible field net/minecraft/client/MinecraftClient currentScreen Lnet/minecraft/client/gui/screen/Screen;
